@@ -1,4 +1,4 @@
-# **`Swift Deep Dive 1:`**
+# **`Swift5 Intermediate Topics:`**
 
 This deep dive covers basic topics of programming with Swift based on **`Swift5`**
 
@@ -11,36 +11,31 @@ This deep dive covers basic topics of programming with Swift based on **`Swift5`
     - Range Operator and Randomization.
 
 #### **`Naming Conventions`:**
-A **`Dockerfile`** is a mechanism to automate the building of container images.
-Building an image from a `Dockerfile` is a three-step process.
-    1. Create a working directory
-    2. Write a the `Dockerfile`
-    3. Build the image with **`Podman`**.
-    
-```
-Code Block
-```
+In Swift5 `camelCasing` is the conventional method for naming variables and functions.
+
+- camelCasing Examples:
+    - weak var userNameVariable;
+    - func actionButtonFunction();
 
 #### **`Commenting`:**
-A **`Dockerfile`** is a mechanism to automate the building of container images.
-Building an image from a `Dockerfile` is a three-step process.
-    1. Create a working directory
-    2. Write a the `Dockerfile`
-    3. Build the image with **`Podman`**.
+There are two types of method for commenting out code Swift5 (Single-Line comments, Multi-line Comment). 
+
+- Commenting Examples:
+    - To invoke a single-line comment we use '//' two forward-slashes.
+    - To invoke a single-line comment on a line you can use the command 'cmd + /' on the line you wish to comment out.
+    - To invoke a multi-line comment we use '/* */' forward slash and asterik.
     
-```
-Code Block
-```
 #### **`String Interpolation`:**
-A **`Dockerfile`** is a mechanism to automate the building of container images.
-Building an image from a `Dockerfile` is a three-step process.
-    1. Create a working directory
-    2. Write a the `Dockerfile`
-    3. Build the image with **`Podman`**.
-    
+String interpolation allows us to input bits of code between bits of text.
+
+- String Interpolation Examples:
+    - To invoke string interpolation we use '\()' back-slash followed by a set of parenthesis.
 ```
-Code Block
+//This prints the addition of two integers in-between a string 
+print("Two plus three is equals to \(2+3)")
 ```    
+
+
 #### **Variables and Arrays** 
 A **`Dockerfile`** is a mechanism to automate the building of container images.
 Building an image from a `Dockerfile` is a three-step process.
