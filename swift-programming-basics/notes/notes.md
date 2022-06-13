@@ -1,4 +1,4 @@
-# **`Swift Deep Dive 1:`**
+# **`Swift Basic Topics:`**
 
 This deep dive covers basic topics of programming with Swift based on **`Swift5`**
 
@@ -11,27 +11,28 @@ This deep dive covers basic topics of programming with Swift based on **`Swift5`
     - Range Operator and Randomization.
 
 #### **`Naming Conventions`:**
-In Swift5 camelCasing is the conventional method for naming variables and functions.
+In Swift5 `camelCasing` is the conventional method for naming variables and functions.
 
-camelCasing Examples:
-    1. weak var userNameVariable;
-    2. func actionButtonFunction();
+- camelCasing Examples:
+    - weak var userNameVariable;
+    - func actionButtonFunction();
 
 #### **`Commenting`:**
 There are two types of method for commenting out code Swift5 (Single-Line comments, Multi-line Comment). 
 
-Commenting Examples:
-    1. To invoke a single-line comment we use '//' two forward-slashes.
-    2. To invoke a single-line comment on a line you can use the command 'cmd + /' on the line you wish to comment out.
-    3. To invoke a multi-line comment we use '/* */' forward slash and asterik.
+- Commenting Examples:
+    - To invoke a single-line comment we use '//' two forward-slashes.
+    - To invoke a single-line comment on a line you can use the command 'cmd + /' on the line you wish to comment out.
+    - To invoke a multi-line comment we use '/* */' forward slash and asterik.
     
 ```
 print(" Hello")
 ```
 #### **`String Interpolation`:**
 String interpolation allows us to input bits of code between bits of text.
-Commenting Examples:
-    1. To invoke string interpolation we use '\()' back-slash followed by a set of parenthesis.
+
+- Commenting Examples:
+    - To invoke string interpolation we use '\()' back-slash followed by a set of parenthesis.
     
 ```
 //This prints the addition of two integers in-between a string 
