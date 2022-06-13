@@ -25,15 +25,11 @@ There are two types of method for commenting out code Swift5 (Single-Line commen
     - To invoke a single-line comment on a line you can use the command 'cmd + /' on the line you wish to comment out.
     - To invoke a multi-line comment we use '/* */' forward slash and asterik.
     
-```
-print(" Hello")
-```
 #### **`String Interpolation`:**
 String interpolation allows us to input bits of code between bits of text.
 
-- Commenting Examples:
+- String Interpolation Examples:
     - To invoke string interpolation we use '\()' back-slash followed by a set of parenthesis.
-    
 ```
 //This prints the addition of two integers in-between a string 
 print("Two plus three is equals to \(2+3)")
