@@ -37,37 +37,36 @@ print("Two plus three is equals to \(2+3)")
 
 
 #### **Variables and Arrays** 
-A **`Dockerfile`** is a mechanism to automate the building of container images.
-Building an image from a `Dockerfile` is a three-step process.
-    1. Create a working directory
-    2. Write a the `Dockerfile`
-    3. Build the image with **`Podman`**.
-    
-```
-Code Block
-``` 
+In Swift5 we use the 'var' keyword to create variables.
+In Swift5 we use the 'let' keyword to create constants.
 
-#### **`Constants`:**
-A **`Dockerfile`** is a mechanism to automate the building of container images.
-Building an image from a `Dockerfile` is a three-step process.
-    1. Create a working directory
-    2. Write a the `Dockerfile`
-    3. Build the image with **`Podman`**.
+In Swift 5 we use square brackets to initialize an array.
+To access array elements we use indexing.
+
+- Variable and array Examples:
+    - var x = 5. -> Variable x with 5 as its value.
+    - let x = 5. -> Constant x with 5 as its value.
+    - var arr = [1,2,3] -> Variable arr that stores 3 elements (1,2,3).
+    - var arr_at_zero = arr[0]
+    
     
 ```
 Code Block
 ``` 
 
 #### **`Range Operator and Randomization`:**
-A **`Dockerfile`** is a mechanism to automate the building of container images.
-Building an image from a `Dockerfile` is a three-step process.
-    1. Create a working directory
-    2. Write a the `Dockerfile`
-    3. Build the image with **`Podman`**.
+To generate a random number in Swift5 we tap into the built in "Int/Float/Double" class which provides a random() method.
 
-```
-Code Block
-``` 
+
+
+- Range and Randomization examples:
+```Int/Float/Double.random(in:0...5) -> generate a random number in the range from 0-5 upper bound inclusive```  
+```Int/Float/Double.random(in:0..<5) -> generate a random number in the range from 0-5 upper bound non-inclusive``` 
+```Bool.random() -> returns a random true/false value```
+```array.randomElement() -> returns a random element in the array``` 
+```array.shuffle() -> returns a random element in the array```
+
+
 
 Done!
 
