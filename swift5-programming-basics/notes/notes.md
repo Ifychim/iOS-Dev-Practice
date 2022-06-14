@@ -37,11 +37,14 @@ print("Two plus three is equals to \(2+3)")
 
 
 #### **Variables and Arrays** 
-A **`Dockerfile`** is a mechanism to automate the building of container images.
-Building an image from a `Dockerfile` is a three-step process.
-    1. Create a working directory
-    2. Write a the `Dockerfile`
-    3. Build the image with **`Podman`**.
+In Swift5 we use the 'var' keyword to create variables.
+In Swift 5 we use square brackets to initialize an array
+
+- Variable and array Examples:
+    - var x = 5. -> Variable x with 5 as its value.
+    - var arr = [1,2,3] -> Variable arr that stores 3 elements (1,2,3).
+    - To invoke a multi-line comment we use '/* */' forward slash and asterik.
+    
     
 ```
 Code Block
@@ -49,10 +52,11 @@ Code Block
 
 #### **`Constants`:**
 A **`Dockerfile`** is a mechanism to automate the building of container images.
-Building an image from a `Dockerfile` is a three-step process.
-    1. Create a working directory
-    2. Write a the `Dockerfile`
-    3. Build the image with **`Podman`**.
+
+- Commenting Examples:
+    - To invoke a single-line comment we use '//' two forward-slashes.
+    - To invoke a single-line comment on a line you can use the command 'cmd + /' on the line you wish to comment out.
+    - To invoke a multi-line comment we use '/* */' forward slash and asterik.
     
 ```
 Code Block
@@ -60,11 +64,12 @@ Code Block
 
 #### **`Range Operator and Randomization`:**
 A **`Dockerfile`** is a mechanism to automate the building of container images.
-Building an image from a `Dockerfile` is a three-step process.
-    1. Create a working directory
-    2. Write a the `Dockerfile`
-    3. Build the image with **`Podman`**.
 
+- Commenting Examples:
+    - To invoke a single-line comment we use '//' two forward-slashes.
+    - To invoke a single-line comment on a line you can use the command 'cmd + /' on the line you wish to comment out.
+    - To invoke a multi-line comment we use '/* */' forward slash and asterik.
+    
 ```
 Code Block
 ``` 
