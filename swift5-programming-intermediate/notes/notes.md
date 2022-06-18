@@ -3,7 +3,7 @@
 This deep dive covers basic topics of programming with Swift based on **`Swift5`**
 
 -  **`Table of contents`:**
-    - Naming Conventions
+    - Control Flow and Optionals
     - Commenting
     - String Interpolation    
     - Variables and Arrays

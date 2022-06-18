@@ -9,6 +9,7 @@ This deep dive covers basic topics of programming with Swift based on **`Swift5`
     - Variables and Arrays
     - Constants
     - Range Operator and Randomization.
+    - Functions
 
 #### **`Naming Conventions`:**
 In Swift5 `camelCasing` is the conventional method for naming variables and functions.
@@ -66,6 +67,22 @@ To generate a random number in Swift5 we tap into the built in "Int/Float/Double
 ```array.randomElement() -> returns a random element in the array``` 
 ```array.shuffle() -> returns a random element in the array```
 
+#### **Functions** 
+In Swift5 we can create functions using the 'func' keyword followed by the function name, parentheses and curly brackets
+
+- Functions Examples:
+
+```
+Defining and calling a function 5 times
+
+func greeting(userName: String) {
+    print("hello \(userName)")
+}
+
+for _ in 0...4 {
+    greeting(userName: "Uchenna Chima")
+}
+``` 
 
 
 Done!
