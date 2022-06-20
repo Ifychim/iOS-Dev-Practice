@@ -9,7 +9,7 @@ This deep dive covers basic topics of programming with Swift based on **`Swift5`
     - Variables and Arrays
     - Constants
     - Range Operator and Randomization.
-    - Functions
+    - Functions and Inference
 
 #### **`Naming Conventions`:**
 In Swift5 `camelCasing` is the conventional method for naming variables and functions.
@@ -67,23 +67,47 @@ To generate a random number in Swift5 we tap into the built in "Int/Float/Double
 ```array.randomElement() -> returns a random element in the array``` 
 ```array.shuffle() -> returns a random element in the array```
 
-#### **Functions** 
+#### **Functions and inference** 
 In Swift5 we can create functions using the 'func' keyword followed by the function name, parentheses and curly brackets
+There are a few important things to take note of when using functions in swift.
+1 - How to declare and call void functions
+2 - How to declare and call void functions with parameters
+3 - How to declare and call non-void functions with parameters
+4 - How to declare and call non-void functions with default parameters
 
-- Functions Examples:
+- Functions and Respective Syntax Examples:
 
 ```
-Defining and calling a function 5 times
+//Declaring and calling Void Functions
 
-func greeting(userName: String) {
+func greeting1(){
+    print("hello")
+}
+print(greeting1())
+
+//Declaring and calling Void Functions with Parameters
+
+func greeting2(userName: String) {
     print("hello \(userName)")
 }
+print(greeting2(userName: "Uchenna Chima 1"))
 
-for _ in 0...4 {
-    greeting(userName: "Uchenna Chima")
+//Declaring and calling non-void Functions with Parameters 
+
+func greeting3(userName: String) -> String{
+    return("hello \(userName)")
 }
-``` 
+print(greeting3(userName: "Uchenna Chima 2"))
 
+//Declaring and calling non-void Functions with Default Parameters
+func greeting4(userName: String = "Uchenna") -> String{
+    return("hello \(userName)")
+}
+print(greeting4())
+
+``` 
+By default, Swift5 infers the data type based on the value given to the variable when declared. E.G var x = 5, variable "x" will be infered to be of type "Int"
+To override Swift5's default inference we can use a colon to specifiy datatype. var x: Int = 5
 
 Done!
 
