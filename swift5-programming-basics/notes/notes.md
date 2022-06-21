@@ -10,6 +10,7 @@ This deep dive covers basic topics of programming with Swift based on **`Swift5`
     - Constants
     - Range Operator and Randomization.
     - Functions and Inference
+    - 5 step process to solve programming problems in Swift5
 
 #### **`Naming Conventions`:**
 In Swift5 `camelCasing` is the conventional method for naming variables and functions.
@@ -109,6 +110,24 @@ print(greeting4())
 By default, Swift5 infers the data type based on the value given to the variable when declared. E.G var x = 5, variable "x" will be infered to be of type "Int"
 To override Swift5's default inference we can use a colon to specifiy datatype. var x: Int = 5
 
+
+#### **`5 step process to solve programming problems in Swift5`:**
+Below is a simple 5 step process to solve most programming problems in Swift5. 
+Please note that this process may not always work thus you must tweak it to what works best for you and the problem you are trying to solve.
+
+- 5 step process:
+    - Google the question you are trying to solve. A simple google query is given below 
+        - <What do you want your app to do? (play sound)> + <Which programming language? (Swift5, e.t.c)> + <Which resource? (Stack Overflow, Official Docs, e.t.c)>
+    - Stack OverFlow
+        - Once you have gotten to a viable Stack Overflow link, look for the solution which most likely matches your problem ().
+    - Implement
+        - Implement the Stack Overflow solution in your code.
+    - Official Documentation
+        - Understand the code in depth by reading the documentation
+    - Customization
+        - Customize and optimize the code from stack over flow as it may contain bits and pieces which are not relevant to what is needed to solve your problem.
+    
+    
 Done!
 
 
