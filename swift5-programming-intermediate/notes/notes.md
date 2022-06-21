@@ -10,11 +10,18 @@ This deep dive covers basic topics of programming with Swift based on **`Swift5`
     - Debugging
 
 #### **`IF/ELSE Statements`:**
-In Swift5 `camelCasing` is the conventional method for naming variables and functions.
+Swift5 provides If-Else statements to help with control flow.
 
-- camelCasing Examples:
-    - weak var userNameVariable;
-    - func actionButtonFunction();
+- IF/ELSE Example:
+```
+if trafficLight == "green" {
+    go()
+}else if traficLight == "yellow" {
+    useYourJudgement()
+}else {
+    stop()
+}
+```  
 
 #### **`Switch Statements`:**
 There are two types of method for commenting out code Swift5 (Single-Line comments, Multi-line Comment). 

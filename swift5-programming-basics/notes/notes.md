@@ -38,7 +38,7 @@ print("Two plus three is equals to \(2+3)")
 ```    
 
 
-#### **Variables and Arrays** 
+#### **`Variables and Arrays`** 
 In Swift5 we use the 'var' keyword to create variables.
 In Swift5 we use the 'let' keyword to create constants.
 
@@ -51,24 +51,18 @@ To access array elements we use indexing.
     - var arr = [1,2,3] -> Variable arr that stores 3 elements (1,2,3).
     - var arr_at_zero = arr[0]
     
-    
-```
-Code Block
-``` 
 
 #### **`Range Operator and Randomization`:**
 To generate a random number in Swift5 we tap into the built in "Int/Float/Double" class which provides a random() method.
 
-
-
 - Range and Randomization examples:
-```Int/Float/Double.random(in:0...5) -> generate a random number in the range from 0-5 upper bound inclusive```  
-```Int/Float/Double.random(in:0..<5) -> generate a random number in the range from 0-5 upper bound non-inclusive``` 
-```Bool.random() -> returns a random true/false value```
-```array.randomElement() -> returns a random element in the array``` 
-```array.shuffle() -> returns a random element in the array```
+    - Int/Float/Double.random(in:0...5) -> generate a random number in the range from 0-5 upper bound inclusive```  
+    - Int/Float/Double.random(in:0..<5) -> generate a random number in the range from 0-5 upper bound non-inclusive``` 
+    - Bool.random() -> returns a random true/false value```
+    - array.randomElement() -> returns a random element in the array``` 
+    - array.shuffle() -> returns a random element in the array```
 
-#### **Functions and inference** 
+#### **`Functions and inference`** 
 In Swift5 we can create functions using the 'func' keyword followed by the function name, parentheses and curly brackets
 There are a few important things to take note of when using functions in swift.
 1 - How to declare and call void functions
