@@ -6,7 +6,7 @@ This deep dive covers basic topics of programming with Swift based on **`Swift5`
     - IF/ELSE Statements
     - Switch Statements    
     - Dictionaries
-    - Optionals
+    - Optionals(!?)
     - Debugging
 
 #### **`IF/ELSE Statements`:**
@@ -64,22 +64,27 @@ phoneBook["Contact3"] = 13579
 phoneBook.removeValue(forKey: "Contact2")
 ```    
 
-#### **Optionals** 
-In Swift5 we use the 'var' keyword to create variables.
-In Swift5 we use the 'let' keyword to create constants.
+#### **Optionals(!?)** 
+In Swift5 Optionals are variables which might start out containing no data. 
+For example, on a sign-in page, the userName field starts out empty but at some point might be filled with relevant data.
+In Swift5 nil represents a literal null value for objects.
+To unwrap optionals in swift (get their true data type) we can use an exclamation. 
 
-In Swift 5 we use square brackets to initialize an array.
-To access array elements we use indexing.
-
-- Variable and array Examples:
-    - var x = 5. -> Variable x with 5 as its value.
-    - let x = 5. -> Constant x with 5 as its value.
-    - var arr = [1,2,3] -> Variable arr that stores 3 elements (1,2,3).
-    - var arr_at_zero = arr[0]
+- Optionals Examples:
+    - var userName: String? (an optional that holds a string which can be empty(nil) or populated)
+    - var userNameUnwrapped: userName! (an unWrapped optional, populated variable)
     
     
 ```
-Code Block
+//userName optional
+var userName: String?
+userName = "testName"
+print(userName) //outputs Optional("testName")
+
+if userName != nil {
+    unWrappedName = userName! //executes when user has provided a string as a userName.
+    print(unWrappedName) //outputs testName
+}
 ``` 
 
 #### **`Debugging`:**
