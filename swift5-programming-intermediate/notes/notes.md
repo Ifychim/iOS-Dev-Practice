@@ -24,21 +24,44 @@ if trafficLight == "green" {
 ```  
 
 #### **`Switch Statements`:**
-There are two types of method for commenting out code Swift5 (Single-Line comments, Multi-line Comment). 
+Swift5 provides switch statements to help with control flow.
 
-- Commenting Examples:
-    - To invoke a single-line comment we use '//' two forward-slashes.
-    - To invoke a single-line comment on a line you can use the command 'cmd + /' on the line you wish to comment out.
-    - To invoke a multi-line comment we use '/* */' forward slash and asterik.
+- Switch statement Example:
+```
+switch trafficLight {
+    case "Green":
+        go()
+        break
+    case "Yellow":
+        useYourJudgeMent()
+        break
+    default:
+        stop()
+        break;
+}
+```  
     
 #### **`Dictionaries`:**
-String interpolation allows us to input bits of code between bits of text.
+Swift5 provides dictionaries as a method for storing data in key:value pairs
+When working with dictionaries important methods to execute are: Retreive elements value by key, Retrieve all values & keys, Update dictionary, Insert entry, Delete entry,
 
-- String Interpolation Examples:
-    - To invoke string interpolation we use '\()' back-slash followed by a set of parenthesis.
+- String Dictionary Examples:
 ```
-//This prints the addition of two integers in-between a string 
-print("Two plus three is equals to \(2+3)")
+//Initialize our dictionary (specifying inference)
+var phoneBook : [String:Int] = ["Contact1": 12345,
+                                "Contact2": 54321]
+                                
+//Retrieving value by key
+print(phoneBook["Contact1"])
+
+//Updating an existing entry in our dictionary
+phoneBook.updateValue(1223, forKey: "Contact1")
+
+//Inserting an entry into our dictionary
+phoneBook["Contact3"] = 13579
+
+//Removing an entry from our dictionary
+phoneBook.removeValue(forKey: "Contact2")
 ```    
 
 #### **Optionals** 
