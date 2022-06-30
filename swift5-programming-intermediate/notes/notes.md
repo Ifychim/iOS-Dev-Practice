@@ -7,7 +7,7 @@ This deep dive covers basic topics of programming with Swift based on **`Swift5`
     - Switch Statements    
     - Dictionaries
     - Optionals(!?)
-    - Debugging
+    - 5 Step Debugging Process
 
 #### **`IF/ELSE Statements`:**
 Swift5 provides If-Else statements to help with control flow.
@@ -87,7 +87,7 @@ if userName != nil {
 }
 ``` 
 
-#### **`Debugging`:**
+#### **`5 Step Debugging Process`:**
 To generate a random number in Swift5 we tap into the built in "Int/Float/Double" class which provides a random() method.
 
 
